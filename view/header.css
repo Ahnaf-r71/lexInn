@@ -1,58 +1,88 @@
-
- .navbar-nav .nav-link{
+/* General Styles */
+.navbar-nav .nav-link {
   color: white !important;
-}
-.navbar-nav .nav-link.active{
-  text-decoration: underline;
-  color:white !important;
+  font-size: 1.rem !important;
+  font-weight: 600;
 }
 
-.bg-body-tertiary{
+
+
+.navbar-nav .nav-link.active {
+  text-decoration: underline;
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+/* Headings */
+.h1 {
+  font-size: 3rem;
+}
+.h2 {
+  font-size: 2.5rem;
+}
+
+/* Body and Buttons */
+.bg-body-tertiary {
   background-color: transparent !important;
 }
+
 .top-bar {
   display: flex;
-  background-color: #00000000;
-  padding:0rem 5rem;
+  background-color: transparent;
+  padding: 0rem 5rem;
   margin: 0 auto;
-  margin-top: 20px !important;
+  padding-top: 20px !important;
+  font-size: large;
 }
-.btn-primary{
-  background-color: #ffffff00; /* Green color */
-  color: white; /* White text color */
+
+.btn-primary {
+  background-color: transparent; /* Transparent background */
+  color: white; /* White text */
   padding: 6px 20px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  transition: background-color 0.3s ease;
 }
-
-.btn-primary:hover{
+.navbar-toggler-icon{
+  background-color: #ffffffbc;
+  border-radius: 5px;
+}
+.btn-primary:hover {
   border-width: 2px;
   background-color: transparent !important;
-  border-color:#16ADE0;
+  border-color: #16ADE0;
 }
+
+/* Social Icons */
 .social-icons {
   display: flex;
   justify-content: flex-start;
   gap: 15px;
   flex: 1;
 }
+
 .social-icons a {
-  color: #ffffff; /* Change this to your desired color */
-  font-size: 20px; /* Adjust icon size if needed */
-  transition: color 0.3s ease; /* Smooth color transition */
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #16ADE0; /* Change color on hover */
+  color: #16ADE0;
 }
 
-
+/* Logo */
 .logo {
   text-align: center;
   flex: 1;
 }
 
+.logo img {
+  height: 70px;
+}
+
+/* Buttons */
 .buttons {
   display: flex;
   justify-content: flex-end;
@@ -60,25 +90,70 @@
   flex: 1;
 }
 
-.logo img {
-  height: 90px;
-}
-
+/* Media Queries */
 @media (max-width: 767px) {
   .top-bar {
+    flex-direction: column;
+    align-items: center;
+  }
 
-      flex-direction: column;
-      align-items: center;
+  .social-icons, .buttons {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 25px;
   }
-  
-  .social-icons,
-  .buttons {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 5px;
-  }
-  
+
   .logo {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust font sizes for mobile */
+  .navbar-nav .nav-link {
+    font-size: 1.25rem !important;
+  }
+
+  .navbar-nav{
+    background-color: rgba(0, 0, 0, 0.57) !important;
+    border-radius: 5px;
+    align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav{
+    background-color: rgba(0, 0, 0, 0.57) !important;
+    border-radius: 5px;
+    align-items: center;
+    }
+
+  .social-icons {
+    margin-bottom: 25px !important;
+  }
+
+  .social-icons, .buttons {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  /* Responsive Font Sizes */
+  .navbar-nav .nav-link {
+    font-size: 1rem !important;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+  }
+
+  .h2 {
+    font-size: 1.25rem;
   }
 }
