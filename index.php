@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="view/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <div class="heroBanner position-relative">
   <?php include("reUse/header.php") ?>
 
@@ -105,8 +106,36 @@
                   2 Rooms
                   </span>
             </div>
-          
-          <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <!-- facilities -->
+           <div class="facilities mb-4">
+           
+                <h6 class="mb-1">Facilities</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            
+           </div>
+           <!-- Rating -->
+            <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <span class ="badge rounded-pill bg-light">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                </span>
+            </div>
+          <div class="d-flex justify-content-evenly mb-2">
+          <a href="#" class="btn rooms-bc">Book Now</a>
+          <a href="#" class="btn rooms-bc">More Details</a>
+          </div>
         </div>
     </div>
   </div>
@@ -131,8 +160,36 @@
                   2 Rooms
                   </span>
             </div>
-          
-          <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <!-- facilities -->
+           <div class="facilities mb-4">
+           
+                <h6 class="mb-1">Facilities</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            
+           </div>
+           <!-- Rating -->
+            <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <span class ="badge rounded-pill bg-light">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                </span>
+            </div>
+          <div class="d-flex justify-content-evenly mb-2">
+          <a href="#" class="btn rooms-bc">Book Now</a>
+          <a href="#" class="btn rooms-bc">More Details</a>
+          </div>
         </div>
     </div>
   </div>
@@ -157,8 +214,36 @@
                   2 Rooms
                   </span>
             </div>
-          
-          <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <!-- facilities -->
+           <div class="facilities mb-4">
+           
+                <h6 class="mb-1">Facilities</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            
+           </div>
+           <!-- Rating -->
+            <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <span class ="badge rounded-pill bg-light">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                </span>
+            </div>
+          <div class="d-flex justify-content-evenly mb-2">
+          <a href="#" class="btn rooms-bc">Book Now</a>
+          <a href="#" class="btn rooms-bc">More Details</a>
+          </div>
         </div>
     </div>
   </div>
@@ -167,8 +252,240 @@
   <div class ="col-lg-12 text-center mt-5 ">
       <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc">More Rooms</a>
   </div>
-
+  <!-- facilities -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our Facilities</h2>
+  <div class="container">
+    <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/logo.png" alt="wifi" width="80px my-3">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/logo.png" alt="wifi" width="80px my-3">
+        <h5 class="mt-3">Wifi</h5>
+      </div><div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/logo.png" alt="wifi" width="80px my-3">
+        <h5 class="mt-3">Wifi</h5>
+      </div><div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/logo.png" alt="wifi" width="80px my-3">
+        <h5 class="mt-3">Wifi</h5>
+      </div>
+      <div class ="col-lg-12 text-center mt-5 ">
+      <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc">More Rooms</a>
+      </div>
+    </div>
+  </div>
  </div>
  </div>
-<br><br><br><br><br>
 
+<!-- Testimonials -->
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Testimonials</h2>
+<div class="container" style="height:200px">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg-white p-4">
+        <div class="profile d-flex align-items-center ">
+
+        <img src="" alt="" width="30px">
+        <h6 class="m-0 ms-2">Random User 1</h6>
+        </div>
+       
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Vitae ut modi ad, provident et 
+           laboriosam dolorem aspernatur, saepe, temporibus alias quia ullam? 
+           Blanditiis eius consequatur qui nihil! Harum, recusandae voluptatum?
+        </p>
+        <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+        </div>
+      </div>
+      <div class="swiper-slide bg-white p-4">
+        <div class="profile d-flex align-items-center ">
+
+        <img src="" alt="" width="30px">
+        <h6 class="m-0 ms-2">Random User 1</h6>
+        </div>
+       
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Vitae ut modi ad, provident et 
+           laboriosam dolorem aspernatur, saepe, temporibus alias quia ullam? 
+           Blanditiis eius consequatur qui nihil! Harum, recusandae voluptatum?
+        </p>
+        <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+        </div>
+      </div>
+      <div class="swiper-slide bg-white p-4">
+        <div class="profile d-flex align-items-center">
+
+        <img src="" alt="" width="30px">
+        <h6 class="m-0 ms-2">Random User 1</h6>
+        </div>
+       
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Vitae ut modi ad, provident et 
+           laboriosam dolorem aspernatur, saepe, temporibus alias quia ullam? 
+           Blanditiis eius consequatur qui nihil! Harum, recusandae voluptatum?
+        </p>
+        <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+        </div>
+      </div>
+      <div class="swiper-slide bg-white p-4">
+        <div class="profile d-flex align-items-center">
+
+        <img src="" alt="" width="30px">
+        <h6 class="m-0 ms-2">Random User 1</h6>
+        </div>
+       
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Vitae ut modi ad, provident et 
+           laboriosam dolorem aspernatur, saepe, temporibus alias quia ullam? 
+           Blanditiis eius consequatur qui nihil! Harum, recusandae voluptatum?
+        </p>
+        <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+</div>
+<div class ="col-lg-12 text-center mt-5 ">
+      <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc" style="margin-top:-20px;">More Reviews</a>
+  </div>
+<!-- Swiper JS for testimonial -->
+
+
+ <!-- Initialize Swiper -->
+ <script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "flip",
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+      delay: 3000, // Time between slide transitions (3 seconds)
+      disableOnInteraction: false, // Continue autoplay after interaction
+    },
+  });
+</script>
+</div>
+<!-- Contact Us -->
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Contact Us</h2>
+<div class="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+      <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.1616070608916!2d114.60890487550274!3d-28.684811975636222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2bda48d136a7980d%3A0xd1e415aeabf6dd6c!2sClipper%20St%2C%20Glenfield%20WA%206532%2C%20Australia!5e0!3m2!1sen!2sbd!4v1726077637238!5m2!1sen!2sbd"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Call Us</h5>
+          <a href="tel: +990131312313" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"> </i> +9123912312313</a>
+
+          <a href="tel: +990131312313" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"> </i> +9123912312313</a>
+        </div>
+        <br>
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="d-inline-block mb-3  text-dark">
+            <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-twitter-x me-1"></i>  Twitter
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3  text-dark">
+            <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-twitter-x me-1"></i>  Facebook
+            </span>
+          </a>
+          <a href="#" class="d-inline-block mb-3  text-dark">
+            <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-twitter-x me-1"></i>  Instagram
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3  text-dark"></a>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-white mt-5">
+  <div class="row">
+    <div class="col-lg-4">
+      <h3 class="h-font fw-bold fs-3">Foot
+
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officia voluptate soluta quas. 
+        Hic soluta sequi nulla, sunt placeat cum beatae quis quas tempora non quos quibusdam doloremque nemo possimus?
+      </p>
+    </div>
+    <div class="col-lg-4 p-4">
+<h5 class="mb-3">Linnks</h5>
+    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About Us</a><br>
+    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a><br>
+    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a><br>  
+  </div>
+  <div class="col-lg-4 p-4">
+    <h5 class="mb-3">Follow Us</h5>
+          <a href="#" class="d-inline-block text-dark mb-2 text-decoration-none text-dark">
+          
+            <i class="bi bi-twitter-x me-1"></i>  Twitter
+            
+          </a>
+          <a href="#" class="d-inline-block text-dark mb-2 text-decoration-none text-dark">
+          
+          <i class="bi bi-twitter-x me-1"></i>  Twitter
+          
+        </a>
+        <a href="#" class="d-inline-block text-dark text-decoration-none text-dark">
+          
+          <i class="bi bi-twitter-x me-1"></i>  Twitter
+          
+        </a>
+  </div>
+
+  </div>
+
+</div>
+<h6 class="text-center bg-dark text-white p-3 m-0">Designed By Md Ahnaf Rashid</h6>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
