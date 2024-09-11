@@ -83,44 +83,87 @@
 
 <!-- Rooms Section -->
  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our Rooms</h2>
- <div class="container">
+ <div class="container rooms ">
  <div class="row">
   <div class="col-lg-4 col-md-6">
-    <!-- cards -->
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <!-- cards 1-->
+    <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
+        <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <h5 class="card-title">Room Name</h5>
+          <h6 class="card-title">200$ per night</h6>
+            <div class="features mb-4">
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            </div>
+          
+          <a href="#" class="btn rooms-bc">Go somewhere</a>
+        </div>
     </div>
-    
-</div>
+  </div>
   </div>
   <div class="col-lg-4 col-md-6">
     <!-- cards -->
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
+        <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <h5 class="card-title">Room Name</h5>
+          <h6 class="card-title">200$ per night</h6>
+            <div class="features mb-4">
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            </div>
+          
+          <a href="#" class="btn rooms-bc">Go somewhere</a>
+        </div>
     </div>
-    
-</div>
+  </div>
   </div>
   <div class="col-lg-4 col-md-6">
     <!-- cards -->
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
+        <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn rooms-bc">Go somewhere</a>
+          <h5 class="card-title">Room Name</h5>
+          <h6 class="card-title">200$ per night</h6>
+            <div class="features mb-4">
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  1 Bath
+                  </span>
+                  <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  2 Rooms
+                  </span>
+            </div>
+          
+          <a href="#" class="btn rooms-bc">Go somewhere</a>
+        </div>
     </div>
-    
-</div>
   </div>
+  </div>
+  <!-- show more  -->
   <div class ="col-lg-12 text-center mt-5 ">
       <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc">More Rooms</a>
   </div>

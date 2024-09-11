@@ -7,6 +7,9 @@
     
     
 }
+.rooms{
+    justify-content: space-evenly;
+}
 
 .rooms-bc{
     background-color: #1b1b5e!important;
