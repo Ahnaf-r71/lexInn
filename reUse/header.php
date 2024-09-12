@@ -165,7 +165,7 @@
     <!-- icon section -->
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon burger"></span>
     </button>
     <!-- Main menu items -->
     <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent"> <!-- flex grow needs to be made 0 else it will take up whole space -->
@@ -173,7 +173,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     
       <li class="nav-item px-3">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item px-3">
           <a class="nav-link" href="#">About Us</a>
@@ -182,7 +182,7 @@
           <a class="nav-link" href="#">Rooms</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#">Facilities</a>
+          <a class="nav-link" href="features.php">Features</a>
         </li>
         <li class="nav-item px-3">
           <a class="nav-link" href="#">Contact Us</a>

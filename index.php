@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="view/index.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 <div class="heroBanner position-relative">
   <?php include("reUse/header.php") ?>
 
@@ -377,24 +379,32 @@
 <div class ="col-lg-12 text-center mt-5 ">
       <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc" style="margin-top:-20px;">More Reviews</a>
   </div>
-<!-- Swiper JS for testimonial -->
-
 
  <!-- Initialize Swiper -->
- <script>
-  var swiper = new Swiper(".mySwiper", {
-    effect: "flip",
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    autoplay: {
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "flip",
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: {
       delay: 3000, // Time between slide transitions (3 seconds)
       disableOnInteraction: false, // Continue autoplay after interaction
     },
-  });
-</script>
-</div>
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+
 <!-- Contact Us -->
 <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Contact Us</h2>
 <div class="">
@@ -441,49 +451,7 @@
 </div>
 
 
-<div class="container-fluid bg-white mt-5">
-  <div class="row">
-    <div class="col-lg-4">
-      <h3 class="h-font fw-bold fs-3">Foot
-
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officia voluptate soluta quas. 
-        Hic soluta sequi nulla, sunt placeat cum beatae quis quas tempora non quos quibusdam doloremque nemo possimus?
-      </p>
-    </div>
-    <div class="col-lg-4 p-4">
-<h5 class="mb-3">Linnks</h5>
-    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
-    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About Us</a><br>
-    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
-    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a><br>
-    <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a><br>  
-  </div>
-  <div class="col-lg-4 p-4">
-    <h5 class="mb-3">Follow Us</h5>
-          <a href="#" class="d-inline-block text-dark mb-2 text-decoration-none text-dark">
-          
-            <i class="bi bi-twitter-x me-1"></i>  Twitter
-            
-          </a>
-          <a href="#" class="d-inline-block text-dark mb-2 text-decoration-none text-dark">
-          
-          <i class="bi bi-twitter-x me-1"></i>  Twitter
-          
-        </a>
-        <a href="#" class="d-inline-block text-dark text-decoration-none text-dark">
-          
-          <i class="bi bi-twitter-x me-1"></i>  Twitter
-          
-        </a>
-  </div>
-
-  </div>
-
-</div>
-<h6 class="text-center bg-dark text-white p-3 m-0">Designed By Md Ahnaf Rashid</h6>
-
+<?php include("reUse/footer.php") ?>
 
 
 
