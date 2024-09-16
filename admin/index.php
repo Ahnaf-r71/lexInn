@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    
     <?php include("reUseAdmin/db_config.php")?>
+    <?php include("reUseAdmin/components.php")?>
     <?php include("reUseAdmin/adHeader.php")?>
     <style>
         div.login-form{
@@ -51,24 +53,31 @@
     ///^^^ This $res is different from the one in db_config
     print_r($res);
     if($res->num_rows==1){
-        echo "got user";
+        // echo "got user";
+        $row = mysqli_fetch_assoc($res);
+        session_start();
+        $_SESSION['adminLogin']=true; //instead of admin_login or adminId write anything but row name must be same as db
+        $_SESSION['adminId']=$row['sr_no'];
+        redirect('dashboard.php');
+        
+
     }
     else{
-        echo <<<alert
-        <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
-          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        alert;
-        
+        // echo <<<alert
+        // <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+        //   <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        //   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        //     <span aria-hidden="true">&times;</span>
+        //   </button>
+        // </div>
+        // alert;
+        alert('error','Login Failed, Password or Admin Name is incorrect');
     }
     }
 
     
     ?>
-    <?php include("script/adSript.php")?> 
+    <?php include("script/adScript.php")?> 
 
 
 </body>
