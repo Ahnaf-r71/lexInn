@@ -1,11 +1,18 @@
 
- .navbar-nav .nav-link{
+.navbar-nav .nav-link {
   color: white !important;
 }
-.navbar-nav .nav-link.active{
-  text-decoration: underline;
-  color:white !important;
+
+.navbar-nav .nav-link.active {  
+  color: white !important;
 }
+
+.nav-link.active{
+  color: yellow;
+  background-color:none; 
+  border-color:none;
+  border-bottom: 3px solid yellow;
+  }
 .burger{
   background-color: #ffffff !important;
 }

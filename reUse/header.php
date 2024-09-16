@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="view/header.css">
 <!-- for css --- @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); -->
+  
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -172,21 +173,24 @@
     <!-- icon section -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+    <li class="nav-item px-3">
+        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+      </li>
       <li class="nav-item px-3">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="#">Rooms</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="features.php">Features</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
+        <a class="nav-link active" aria-current="page" href="about.php">About Us</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link active" aria-current="page" href="#">Rooms</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link active" aria-current="page" href="features.php">Features</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
+      </li>
+
         
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

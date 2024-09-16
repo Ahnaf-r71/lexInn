@@ -88,7 +88,7 @@
  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our Rooms</h2>
  <div class="container rooms ">
  <div class="row">
-  <div class="col-lg-4 col-md-6">
+  <div class="col-lg-4 col-md-6 my-3">
     <!-- cards 1-->
     <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
         <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
@@ -96,17 +96,15 @@
           <h5 class="card-title">Room Name</h5>
           <h6 class="card-title">200$ per night</h6>
             <div class="features mb-4">
-              <div class="features mb-4">
-                <h6 class="mb-1">Features</h6>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
+                  5 Adults
                   </span>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  1 Bath
+                  4 Children
                   </span>
-                  <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
-                  </span>
+                  
             </div>
           <!-- facilities -->
            <div class="facilities mb-4">
@@ -142,7 +140,7 @@
     </div>
   </div>
   </div>
-  <div class="col-lg-4 col-md-6">
+  <div class="col-lg-4 col-md-6 my-3">
     <!-- cards -->
     <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
         <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
@@ -150,17 +148,15 @@
           <h5 class="card-title">Room Name</h5>
           <h6 class="card-title">200$ per night</h6>
             <div class="features mb-4">
-              <div class="features mb-4">
-                <h6 class="mb-1">Features</h6>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
+                  5 Adults
                   </span>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  1 Bath
+                  4 Children
                   </span>
-                  <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
-                  </span>
+                  
             </div>
           <!-- facilities -->
            <div class="facilities mb-4">
@@ -196,7 +192,7 @@
     </div>
   </div>
   </div>
-  <div class="col-lg-4 col-md-6">
+  <div class="col-lg-4 col-md-6 my-3">
     <!-- cards -->
     <div class="card border-0 shadow" style="max-width: 350px; margin:auto; margin-bottom:20px;">
         <img class="card-img-top" src="image/room/room2.jpg" alt="Card image cap">
@@ -204,17 +200,15 @@
           <h5 class="card-title">Room Name</h5>
           <h6 class="card-title">200$ per night</h6>
             <div class="features mb-4">
-              <div class="features mb-4">
-                <h6 class="mb-1">Features</h6>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
+                  5 Adults
                   </span>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  1 Bath
+                  4 Children
                   </span>
-                  <span class="badge rounded-pill bg-light text-dark text-wrap">
-                  2 Rooms
-                  </span>
+                  
             </div>
           <!-- facilities -->
            <div class="facilities mb-4">

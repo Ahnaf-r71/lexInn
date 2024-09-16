@@ -1,4 +1,6 @@
-<?php include("reUse/header.php")  ?>
+<?php include("reUse/header.php")?>
+
+
 
 <br><br><br>
 
@@ -86,4 +88,6 @@
   
 
 
-<?php include("reUse/footer.php")  ?>
+
+
+<?php include("reUse/footer.php")?>
