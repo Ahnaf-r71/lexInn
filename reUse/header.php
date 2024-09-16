@@ -182,7 +182,7 @@
         <a class="nav-link active" aria-current="page" href="about.php">About Us</a>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link active" aria-current="page" href="#">Rooms</a>
+        <a class="nav-link active" aria-current="page" href="rooms.php">Rooms</a>
       </li>
       <li class="nav-item px-3">
         <a class="nav-link active" aria-current="page" href="features.php">Features</a>

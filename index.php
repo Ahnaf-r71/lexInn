@@ -106,10 +106,10 @@
                   </span>
                   
             </div>
-          <!-- facilities -->
-           <div class="facilities mb-4">
+          <!-- feature -->
+           <div class="feature mb-4">
            
-                <h6 class="mb-1">Facilities</h6>
+                <h6 class="mb-1">Feature</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
                   2 Rooms
                   </span>
@@ -121,6 +121,12 @@
                   </span>
             
            </div>
+           <!-- facilities -->
+           <div class="facilities mb-4">
+          <h6 class="mb-1">Facilities</h6>
+          <span class="badge rounded-pill bg-light text-dark text-wrap"> Wifi </span>
+          </div> 
+          
            <!-- Rating -->
             <div class="rating mb-4">
                 <h6 class="mb-1">Rating</h6>
@@ -158,10 +164,10 @@
                   </span>
                   
             </div>
-          <!-- facilities -->
-           <div class="facilities mb-4">
+          <!-- feature -->
+           <div class="feature mb-4">
            
-                <h6 class="mb-1">Facilities</h6>
+                <h6 class="mb-1">Feature</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
                   2 Rooms
                   </span>
@@ -173,6 +179,12 @@
                   </span>
             
            </div>
+           <!-- facilities -->
+           <div class="facilities mb-4">
+          <h6 class="mb-1">Facilities</h6>
+          <span class="badge rounded-pill bg-light text-dark text-wrap"> Wifi </span>
+          </div> 
+          
            <!-- Rating -->
             <div class="rating mb-4">
                 <h6 class="mb-1">Rating</h6>
@@ -210,10 +222,10 @@
                   </span>
                   
             </div>
-          <!-- facilities -->
-           <div class="facilities mb-4">
+          <!-- feature -->
+           <div class="feature mb-4">
            
-                <h6 class="mb-1">Facilities</h6>
+                <h6 class="mb-1">Feature</h6>
                   <span class="badge rounded-pill bg-light text-dark text-wrap">
                   2 Rooms
                   </span>
@@ -225,6 +237,12 @@
                   </span>
             
            </div>
+           <!-- facilities -->
+           <div class="facilities mb-4">
+          <h6 class="mb-1">Facilities</h6>
+          <span class="badge rounded-pill bg-light text-dark text-wrap"> Wifi </span>
+          </div> 
+          
            <!-- Rating -->
             <div class="rating mb-4">
                 <h6 class="mb-1">Rating</h6>
@@ -249,6 +267,10 @@
       <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none rooms-bc">More Rooms</a>
   </div>
   <!-- facilities -->
+   <!-- <div class="facilities mb-4">
+    <h6 class="mb-1">Facilities</h6>
+    <span class="badge rounded-pill bg-light text-dark text-wrap"> Wifi </span>
+   </div> -->
   <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our Facilities</h2>
   <div class="container">
     <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
@@ -443,6 +465,8 @@
     </div>
   </div>
 </div>
+
+
 
 
 <?php include("reUse/footer.php") ?>
